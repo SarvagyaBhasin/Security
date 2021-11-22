@@ -20,7 +20,7 @@ def takesnapshot():
     cv2.destroyAllWindows()
 
 def uploadfile(source):
-    accesstoken='sl.A8w6_jmi_extambZbC2iiwlcSUoH8nCEeXjCQUaVBMNJ1q4k6JW5xGOFFYg1JV6M4ViF74on5e-nrG9aLUlAiOkhMyaDmSzoFVHgwekVaDlq5QkWhxK7Ebxv48iJ3CCRtnkCUcG4R0LN'
+    accesstoken=''
     file=source
     destination="/Backup/"+file
     dbx= dropbox.Dropbox(accesstoken)
